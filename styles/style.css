@@ -1,26 +1,102 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
-#nav-bar > img{
+body{
+  margin: 0;
+  padding: 0
+}
+.nav-bar-ul{
+  box-sizing: border-box;
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  float: right;
+}
+.imagenuno {
+  width: 150px;
+  height: 50px;
+}
+/* Segunda sección */
+.grande {
+  background-image: url('../images/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.music {
+  font-size: 70px;
+}
+.blanco{
+  font-size: 25px;
+}
+/* Tercera Sección */
+.logos img {
+  width: 90px;
+}
+.logos {
+    width: 150px;
+    text-align: justify;
+}
+.subrayado {
+    font-size: 40px;
+    text-align: center;
+  text-decoration: underline #00B172;
+  text-decoration-color: #00B172;
+}
+.tercera {
     display: flex;
-    flex-direction: row;
-      flex-wrap: wrap;
-  }
-  #nav-bar > ul {
-    display: flex;
-    display: inline-block;
-    justify-content: right;
-    display-direction: row;
-    text-decoration: none;
-  }
-  
-  #nav-bar > img {
-    display: flex;
-    display-flex : in-line-block;
-  }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+.logos  h3 {
+   font-size: 20px;
+   color:#00B172;
+}
+/* Cuarta sección*/
+.cuarta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+}
+.kani{
+  font-size: 40px;
+  color: white;
+  text-decoration: underline white;
+}
+.kaniss {
+  width: 400px;
+  margin: 100px 0 100px 0
+}
+.spo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+}
+.ultimo {
+  color: white;
+  width: 500px;
+  margin: 100px 0 100px 0
+}
+.ultimo > p{
+  width: 300px;
+}
+.ultimo > h4{
+  margin: 0
+}
+.ahora {
+  background-color: #00B172;
+  margin: 0 2% 0 2%;
+  position: relative;
+}
